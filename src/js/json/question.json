@@ -1,0 +1,168 @@
+[
+    {
+        "blockId" : "1",
+        "block" : "IDENTIFIKASI ENUMERATOR",
+        "question" : [
+            {
+                "questionId" : "1",
+                "label" : "Kota",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Kota Banda Aceh"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Kota Medan"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Kota Jakarta Timur"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Kota Bandung"
+                    },
+                    {
+                        "answerId" : "5",
+                        "label" : "Kota Makassar"
+                    },
+                    {
+                        "answerId" : "6",
+                        "label" : "Kota Kendari"
+                    }
+                ]
+            },
+            {
+                "questionId" : "2",
+                "label" : "ID Petugas",
+                "type" : "text",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : []
+            },
+            {
+                "questionId" : "3",
+                "label" : "Metode Pengambilan Data",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Tatap Muka"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Via Telepon"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "blockId" : "2",
+        "block" : "DEMOGRAFI",
+        "question" : [
+            {
+                "questionId" : "1",
+                "label" : "Berapa usia Anda saat ini ?",
+                "type" : "date",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : []
+            },
+            {
+                "questionId" : "2",
+                "label" : "Apa Jenis Kelamin Anda ?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Laki - Laki"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Perempuan"
+                    }
+                ]
+            },
+            {
+                "questionId" : "3",
+                "label" : "Apa pendidikan terakhir anda ?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Tidak pernah/Tidak Tamat SD"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Sekolah Dasar"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Sekolah Dasar"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Sekolah Menengah Pertama"
+                    },
+                    {
+                        "answerId" : "5",
+                        "label" : "Sekolah Menengah Atas"
+                    },
+                    {
+                        "answerId" : "6",
+                        "label" : "Sarjana"
+                    },
+                    {
+                        "answerId" : "7",
+                        "label" : "Pasca Sarjana"
+                    },
+                    {
+                        "answerId" : "8",
+                        "label" : "Lainnya"
+                    }
+                ]
+            }
+        ]
+    }
+]
