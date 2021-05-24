@@ -16,14 +16,16 @@ import {
   Col,
   Button
 } from 'framework7-react';
+import { coronavirus_white } from '../static';
 
 const HomePage = ({ f7router }) => (
   <Page name="home">
     {/* Top Navbar */}
     <Navbar sliding={false}>
       <NavLeft>
-        <Link iconIos="f7:menu" iconAurora="f7:menu" iconMd="material:coronavirus" />
-        {/* <Link iconIos="f7:menu" iconAurora="f7:menu" iconMd="material:menu" panelOpen="left" /> */}
+        <Link>
+          <img src={ coronavirus_white } alt="...." />
+        </Link>
       </NavLeft>
       <NavTitle sliding>XCovid19</NavTitle>
     </Navbar>
@@ -31,14 +33,13 @@ const HomePage = ({ f7router }) => (
     {/* Page content */}
     <Block strong noHairlines style={{
       textAlign:'center',
-      fontSize: '24px'
+      fontSize: '24px',
     }}>
       PENYIMPANGAN INFORMASI VAKSIN COVID-19 DI 6 PROVINSI INDONESIA TAHUN 2021
     </Block>
 
     <Block strong noHairlines style={{
       textAlign:'justify',
-      margin: '25px',
       fontSize: '18px'
     }}>
       <p>Yayasan Jenewa Institute, Link To Evidance, Leuser Andalas Community Development sedang melaksanakan survey Penyimpangan Informasi Vaksi Covid-19 di 6 Provinsi Indonesia tahun 2021.</p>
@@ -54,7 +55,7 @@ const HomePage = ({ f7router }) => (
       </p>
     </Block>
     <Block>
-      <Button fill raised round onClick={() => f7router.navigate('/persiapan/')}>
+      <Button fill raised onClick={() => f7router.navigate('/persiapan/')}>
         Selanjutnya
       </Button>
     </Block>

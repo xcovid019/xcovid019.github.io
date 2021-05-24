@@ -4,6 +4,19 @@
         "block" : "IDENTIFIKASI ENUMERATOR",
         "question" : [
             {
+                "questionId" : "2",
+                "label" : "ID Petugas",
+                "type" : "text",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : []
+            },
+            {
                 "questionId" : "1",
                 "label" : "Kota",
                 "type" : "smartselect",
@@ -40,19 +53,6 @@
                         "label" : "Kota Kendari"
                     }
                 ]
-            },
-            {
-                "questionId" : "2",
-                "label" : "ID Petugas",
-                "type" : "text",
-                "condition" : {
-                    "status" : false,
-                    "maxLength" : null,
-                    "minLength" : 1,
-                    "maxValue" : null,
-                    "minValue" : 1
-                },
-                "answerList" : []
             },
             {
                 "questionId" : "3",

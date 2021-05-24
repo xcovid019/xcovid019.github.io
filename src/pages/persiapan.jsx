@@ -6,7 +6,6 @@ const Persiapan = ({ f7router }) => (
     <Navbar title="Persiapan Wawancara" backLink="Back" />
     <Block strong noHairlines style={{
       textAlign:'justify',
-      margin: '25px',
       fontSize: '18px'
     }}>
       <p>
@@ -21,7 +20,7 @@ const Persiapan = ({ f7router }) => (
     <p>Intrumen ini juga menerapkan bentuk validasi pertanyaan dengan menggunakan pertanyaan dengan kondisi, sehingga responden tidak perlu menjawab beberapa pertanyaan yang tidak relevan karena jawaban responden di pertanyaan sebelumnya membuat kondisi pertanyaan tersebut tidak perlu dijawab </p>
     </Block>
     <Block>
-      <Button fill raised round onClick={() => f7router.navigate('/wawancara/')}>
+      <Button fill raised onClick={() => f7router.navigate('/wawancara/')}>
         Selanjutnya
       </Button>
     </Block>
