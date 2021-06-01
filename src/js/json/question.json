@@ -162,6 +162,510 @@
                         "label" : "Lainnya"
                     }
                 ]
+            },
+            {
+                "questionId" : "4",
+                "label" : "Apa Pekerjaan Utama Anda Saat ini ? ",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Petani"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Nelayan"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Kerja harian (tukang/bengkel, penjaga toko, ojeg, sopir)"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Usaha sendiri/wiraswasta"
+                    },
+                    {
+                        "answerId" : "5",
+                        "label" : "Karyawan swasta"
+                    },
+                    {
+                        "answerId" : "6",
+                        "label" : "Karyawan BUMN"
+                    },
+                    {
+                        "answerId" : "7",
+                        "label" : "Aparatur Sipil Negara (ASN)"
+                    },
+                    {
+                        "answerId" : "8",
+                        "label" : "TNI"
+                    },
+                    {
+                        "answerId" : "9",
+                        "label" : "Polri"
+                    },
+                    {
+                        "answerId" : "10",
+                        "label" : "Guru"
+                    },
+                    {
+                        "answerId" : "11",
+                        "label" : "Pembantu rumah tangga"
+                    },
+                    {
+                        "answerId" : "12",
+                        "label" : "Ibu rumah tangga"
+                    },
+                    {
+                        "answerId" : "13",
+                        "label" : "Tidak bekerja"
+                    },
+                    {
+                        "answerId" : "14",
+                        "label" : "Lainnya"
+                    }
+                ]
+            },
+            {
+                "questionId" : "5",
+                "label" : "Apa anda bekerja di bidang kesehatan, saat ini?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Ya"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Tidak"
+                    }
+                ]
+            },
+            {
+                "questionId" : "6",
+                "label" : "Apa anda bekerja di bidang jurnalis, saat ini?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Ya"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Tidak"
+                    }
+                ]
+            },
+            {
+                "questionId" : "7",
+                "label" : "Apa anda terlibat dalam kerelawanan, saat ini?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Ya, relawan Kesehatan"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Ya, relawan non Kesehatan"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Ya, relawan cek Fakta"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Tidak"
+                    }
+                ]
+            },
+            {
+                "questionId" : "8",
+                "label" : "Pengeluaran keluarga selama satu bulan ?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Di bawah Rp2.000.000"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Rp 2.000.000 – 4.999.999"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Rp 5.000.000 – 10.000.000"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Di atas Rp10.000.000"
+                    },
+                    {
+                        "answerId" : "5",
+                        "label" : "Tidak tahu/tidak ingin menjawab"
+                    }
+                ]
+            },
+            {
+                "questionId" : "9",
+                "label" : "Apa agama Anda ?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Islam"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Protestan"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Katolik"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Hindu"
+                    },
+                    {
+                        "answerId" : "5",
+                        "label" : "Budha"
+                    },
+                    {
+                        "answerId" : "6",
+                        "label" : "Kong Hu Cu"
+                    },
+                    {
+                        "answerId" : "7",
+                        "label" : "Lainnya"
+                    }
+                ]
+            },
+            {
+                "questionId" : "10",
+                "label" : "Apakah saat ini anda tinggal bersama dengan orang dengan kategori …(pilih sesuai dengan keadaan anda)",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Lansia  (> 60 tahun) "
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Wanita hamil"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Balita  (< 5 tahun)"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Individu dengan penyakit bawaan  (diabetes melitus, hipertensi, and lainnya)"
+                    },
+                    {
+                        "answerId" : "5",
+                        "label" : "Individu dengan sistem imun yang rendah"
+                    },
+                    {
+                        "answerId" : "6",
+                        "label" : "Tidak ada pilihan"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "blockId" : "3",
+        "block" : "SUMBER INFORMASI",
+        "question" : [
+            {
+                "questionId" : "1",
+                "label" : "Sebutkan tiga jenis  media informasi apa yang sering anda gunakan ?",
+                "type" : "checkbox",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "TV"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Radio"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Surat Kabar Harian/Majalah"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Brosur/Leaflet"
+                    },
+                    {
+                        "answerId" : "5",
+                        "label" : "Baliho/Banner"
+                    },
+                    {
+                        "answerId" : "6",
+                        "label" : "Surat Kabar Online"
+                    },
+                    {
+                        "answerId" : "7",
+                        "label" : "Situs Resmi Pemerintah"
+                    },
+                    {
+                        "answerId" : "8",
+                        "label" : "Situs Resmi Institusi Medis"
+                    },
+                    {
+                        "answerId" : "9",
+                        "label" : "Facebook"
+                    },
+                    {
+                        "answerId" : "10",
+                        "label" : "Instagram"
+                    },
+                    {
+                        "answerId" : "11",
+                        "label" : "Twitter"
+                    },
+                    {
+                        "answerId" : "12",
+                        "label" : "Youtube"
+                    },
+                    {
+                        "answerId" : "13",
+                        "label" : "WhatsApp"
+                    },
+                    {
+                        "answerId" : "14",
+                        "label" : "Line"
+                    },
+                    {
+                        "answerId" : "15",
+                        "label" : "TikTok"
+                    },
+                    {
+                        "answerId" : "16",
+                        "label" : "kegiatan Keagamaan"
+                    },
+                    {
+                        "answerId" : "17",
+                        "label" : "Pertemuan Warga"
+                    },
+                    {
+                        "answerId" : "18",
+                        "label" : "Lainnya"
+                    }
+                ]
+            },
+            {
+                "questionId" : "2",
+                "label" : "Jenis media informasi apa yang paling anda percayai ?",
+                "type" : "checkbox",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "TV"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Radio"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Surat Kabar Harian/Majalah"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Brosur/Leaflet"
+                    },
+                    {
+                        "answerId" : "5",
+                        "label" : "Baliho/Banner"
+                    },
+                    {
+                        "answerId" : "6",
+                        "label" : "Surat Kabar Online"
+                    },
+                    {
+                        "answerId" : "7",
+                        "label" : "Situs Resmi Pemerintah"
+                    },
+                    {
+                        "answerId" : "8",
+                        "label" : "Situs Resmi Institusi Medis"
+                    },
+                    {
+                        "answerId" : "9",
+                        "label" : "Facebook"
+                    },
+                    {
+                        "answerId" : "10",
+                        "label" : "Instagram"
+                    },
+                    {
+                        "answerId" : "11",
+                        "label" : "Twitter"
+                    },
+                    {
+                        "answerId" : "12",
+                        "label" : "Youtube"
+                    },
+                    {
+                        "answerId" : "13",
+                        "label" : "WhatsApp"
+                    },
+                    {
+                        "answerId" : "14",
+                        "label" : "Line"
+                    },
+                    {
+                        "answerId" : "15",
+                        "label" : "TikTok"
+                    },
+                    {
+                        "answerId" : "16",
+                        "label" : "kegiatan Keagamaan"
+                    },
+                    {
+                        "answerId" : "17",
+                        "label" : "Pertemuan Warga"
+                    },
+                    {
+                        "answerId" : "18",
+                        "label" : "Lainnya"
+                    }
+                ]
+            },
+            {
+                "questionId" : "3",
+                "label" : "Tolong disebutkan salah satu sumber informasi untuk COVID-19 yang paling sering Anda dengar ?",
+                "type" : "checkbox",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Pejabat pemerintah/politik"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Selebritis dan tokoh berpengaruh"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Ucapan keluarga, teman, atau  rekan Tenaga medis"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Tokoh agama/tokoh masyarakat/ulama"
+                    },
+                    {
+                        "answerId" : "5",
+                        "label" : "Lainnya"
+                    }
+                ]
+            },
+            {
+                "questionId" : "4",
+                "label" : "Tolong disebutkan salah satu sumber informasi untuk COVID-19 yang paling Anda percayai ?",
+                "type" : "checkbox",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Pejabat pemerintah/politik"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Selebritis dan tokoh berpengaruh"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Ucapan keluarga, teman, atau  rekan Tenaga medis"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Tokoh agama/tokoh masyarakat/ulama"
+                    },
+                    {
+                        "answerId" : "5",
+                        "label" : "Lainnya"
+                    }
+                ]
             }
         ]
     }

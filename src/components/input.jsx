@@ -28,6 +28,34 @@ const InputForm = (props) => {
                     <option value="0" disabled>Pilih Jawaban</option>
                 </select>
             </ListItem>
+    } else if (question.type === 'checkbox') {
+        return (
+            <ListItem 
+                    smartSelect 
+                    title={question.label} 
+                    smartSelectParams={{
+                        searchbar: true,
+                        searchbarPlaceholder: 'Cari '+question.label,
+                        closeOnSelect: true,
+                        on: {
+                            close: (e) => {
+                                console.log(e.getValue)
+                            }
+                        }
+                    }}
+                >
+                <select 
+                    name="answerValue"
+                    multiple
+                    defaultValue={[0]}
+                >
+                    {question.answerList.map((e, index)=>{
+                            return <option key={index} value={ e.answerId } >{ e.label}</option>
+                    })}
+                    <option value="0" disabled>Pilih Jawaban</option>
+                </select>
+            </ListItem>
+        )
     } else if(["text", "number"].includes(question.type)){
         return <ListInput
                 outline
