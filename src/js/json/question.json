@@ -386,7 +386,7 @@
             {
                 "questionId" : "10",
                 "label" : "Apakah saat ini anda tinggal bersama dengan orang dengan kategori …(pilih sesuai dengan keadaan anda)",
-                "type" : "smartselect",
+                "type" : "checkbox",
                 "condition" : {
                     "status" : false,
                     "maxLength" : null,
@@ -664,6 +664,1510 @@
                     {
                         "answerId" : "5",
                         "label" : "Lainnya"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "blockId" : "4",
+        "block" : "BERBAGI INFORMASI",
+        "question" :[
+            {
+                "questionId" : "1",
+                "label" : "Sudah berapa lama anda menggunakan media sosial atau aplikasi percakapan ?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Dibawah 1 Tahun"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "1 - 2 Tahun"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Di atas 2 tahun"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Tidak menggunakan media sosial atau aplikasi percakapan"
+                    },
+                    {
+                        "answerId" : "5",
+                        "label" : "Lainnya"
+                    }
+                ]
+            },
+            {
+                "questionId" : "2",
+                "label" : "Seberapa sering anda membagikan informasi tentang COVID-19 di media sosial atau aplikasi percakapan dalam setahun terakhir?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Sangat Sering"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Sering"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Jarang"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Tidak pernah"
+                    }
+                ]
+            },
+            {
+                "questionId" : "3",
+                "label" : "Media sosial atau aplikasi percakapan manakah yang paling sering Anda gunakan untuk berbagi informasi mengenai COVID-19? Pilih yang sesuai keadaan Anda ?",
+                "type" : "checkbox",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Facebook"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Twitter"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Instagram"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "WhatsApp"
+                    },
+                    {
+                        "answerId" : "5",
+                        "label" : "Youtube"
+                    },
+                    {
+                        "answerId" : "6",
+                        "label" : "LINE"
+                    },
+                    {
+                        "answerId" : "7",
+                        "label" : "Tik Tok"
+                    },
+                    {
+                        "answerId" : "8",
+                        "label" : "Lainnya..."
+                    },
+                    {
+                        "answerId" : "9",
+                        "label" : "Tidak Pernah"
+                    }
+                ]
+            },
+            {
+                "questionId" : "4",
+                "label" : "Mengapa Anda membagikan informasi mengenai COVID-19 di media sosial atau aplikasi percakapan ?",
+                "type" : "smarselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Karena saya ingin orang lain tahu bahwa saya peduli dengan isu tertentu"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Karena saya pikir orang lain akan menganggapnya sebagai konten yang menarik"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Karena informasi yang saya bagikan sangat penting bagi orang lain"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : " Kewajiban/tanggung jawab moral/ sosial"
+                    },
+                    {
+                        "answerId" : "5",
+                        "label" : "Karena akan lucu/iseng/hiburan "
+                    },
+                    {
+                        "answerId" : "6",
+                        "label" : "Kewajiban pekerjaan"
+                    },
+                    {
+                        "answerId" : "7",
+                        "label" : "Memantik diskusi"
+                    },
+                    {
+                        "answerId" : "8",
+                        "label" : "Menciptakan perasaan yang kuat antara orang lain"
+                    },
+                    {
+                        "answerId" : "9",
+                        "label" : "Untuk mendapat klarifikasi"
+                    },
+                    {
+                        "answerId" : "10",
+                        "label" : "Lainnya..."
+                    },
+                    {
+                        "answerId" : "11",
+                        "label" : "Saya Tidak Punya Alasan Khusus"
+                    },
+                    {
+                        "answerId" : "12",
+                        "label" : "Tidak Pernah"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "blockId" : "5",
+        "block" : "TERPAAN DAN PENGARUH HOAKS COVID-19",
+        "question" : [
+            {
+                "questionId" : "2",
+                "label" : "Menurut anda apakah Covid-19 Tidak akan menginfeksi anak-anak dan remaja.?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Sangat setuju"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Setuju"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Tidak setuju"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Sangat tidak setuju"
+                    }
+                ]
+            },
+            {
+                "questionId" : "3",
+                "label" : "Menurut anda apakah Indonesia bekerjasama dengan China untuk memproduksi Vaksin Covid-19. ?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Sangat setuju"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Setuju"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Tidak setuju"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Sangat tidak setuju"
+                    }
+                ]
+            },
+            {
+                "questionId" : "4",
+                "label" : "Vaksin Astrazeneca berbahaya karena mengakibatkan kematian. ?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Sangat setuju"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Setuju"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Tidak setuju"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Sangat tidak setuju"
+                    }
+                ]
+            },
+            {
+                "questionId" : "5",
+                "label" : "Covid-19 sebenarnya adalah bisnis vaksin ? ",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Sangat setuju"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Setuju"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Tidak setuju"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Sangat tidak setuju"
+                    }
+                ]
+            },
+            {
+                "questionId" : "6",
+                "label" : "CDC/WHO menyatakan bahwa penggunaan masker tidak diperlukan lagi ?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Sangat setuju"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Setuju"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Tidak setuju"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Sangat tidak setuju"
+                    }
+                ]
+            },
+            {
+                "questionId" : "7",
+                "label" : "Jika Sudah Disuntik Vaksin Covid-19, Tidak Perlu Mematuhi Protokol Kesehatan ?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Sangat setuju"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Setuju"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Tidak setuju"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Sangat tidak setuju"
+                    }
+                ]
+            },
+            {
+                "questionId" : "8",
+                "label" : "Vaksin Covid-19 Mengandung Microchip Magnetik ?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Sangat setuju"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Setuju"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Tidak setuju"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Sangat tidak setuju"
+                    }
+                ]
+            },
+            {
+                "questionId" : "10",
+                "label" : "Gosip/Rumor/isu/kabar burung apa tentang vaksin COVID-19 yang pernah Anda dengar atau baca ? ",
+                "type" : "checkbox",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Politik/ pada pemerintah"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Isu agama"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Keamanan vaksin"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "kemanjuran vaksin"
+                    },
+                    {
+                        "answerId" : "5",
+                        "label" : "Jumlah vaksin yang terbatas"
+                    },
+                    {
+                        "answerId" : "6",
+                        "label" : "Vaksin berbayar"
+                    },
+                    {
+                        "answerId" : "7",
+                        "label" : "Prasyarat mendapatkan vaksin"
+                    },
+                    {
+                        "answerId" : "8",
+                        "label" : "Pentahapan sasaran vaksin"
+                    },
+                    {
+                        "answerId" : "9",
+                        "label" : "Tidak pernah membaca/mendengar rumor/isi/kabar burung"
+                    },
+                    {
+                        "answerId" : "10",
+                        "label" : "Saya tidak pernah membaca atau mendengar rumor tentang vaksin COVID-19"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "blockId" : "6",
+        "block" : "PERSEPSI RISIKO HOAKS COVID-19",
+        "question" : [
+            {
+                "questionId" : "1",
+                "label" : "Saya mendapatkan informasi COVID 19 terlalu banyak ?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Sangat setuju"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Setuju"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Tidak setuju"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Sangat tidak setuju"
+                    }
+                ]
+            },
+            {
+                "questionId" : "2",
+                "label" : "Saya sering menemukan hoaks COVID-19 ?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Sangat setuju"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Setuju"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Tidak setuju"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Sangat tidak setuju"
+                    }
+                ]
+            },
+            {
+                "questionId" : "3",
+                "label" : "Menurut saya, hoaks COVID-19 itu membahayakan ?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Sangat setuju"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Setuju"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Tidak setuju"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Sangat tidak setuju"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "blockId" : "7",
+        "block" : "TANGGAPAN MENGENAI HOAKS COVID-19",
+        "question" : [
+            {
+                "questionId" : "1",
+                "label" : " Apa yang anda lakukan saat menerima informasi COVID 19 yang belum diyakini kebenarannya ? (pilih kode 1 jika Ya, kode 2 jika Tidak untuk setiap barisnya. Jawaban bisa lebih dari satu) ?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Mencari informasi lebih lanjut untuk mengetahui informasi tersebut benar atau salah"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Menganggap itu benar"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Menganggap itu salah "
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Mengabaikan atau tidak melakukan apa-apa "
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Melaporkannya"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Bertanya pada orang lain"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Hanya menunggu "
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Lainnya(jelaskan) "
+                    }
+                ]
+            },
+            {
+                "questionId" : "9",
+                "label" : "Apa yang biasa Anda lakukan jika salah seorang dari grup Anda membagikan informasi yang salah  tentang  COVID-19?",
+                "type" : "checkbox",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Mengklarifikasinya/ memeriksa kebenarannya informasi dalam grup dengan menggunakan sumber yang valid ?"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Mengklarifikasi/memeriksa kebenarannya informasi dengan cara menghubunginya secara pribadi ?"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Menunggu orang lain menanggapi ?"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Mengabaikan atau tidak melakukan apa-apa ?"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Diam saja, mengabaikannya ?"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Keluar dari grup ?"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Memberitahukan pihak lain agar mengklarifikasi hoaks tersebut  ?"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Lainnya(jelaskan) ?"
+                    }
+                ]
+            },
+            {
+                "questionId" : "17",
+                "label" : "Saya merasa percaya diri terhadap kemampuan saya mengidentifikasi kebenaran informasi mengenai COVID 19 ?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Sangat setuju"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Setuju"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Tidak setuju"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Sangat tidak setuju"
+                    }
+                ]
+            },
+            {
+                "questionId" : "18",
+                "label" : "Saya tahu bagaimana cara memeriksa fakta ketika mendapatkan informasi baru mengenai COVID-19 ?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Sangat setuju"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Setuju"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Tidak setuju"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Sangat tidak setuju"
+                    }
+                ]
+            },
+            {
+                "questionId" : "19",
+                "label" : "Saya tahu siapa saja yang dapat membantu saya mencari kebenaran informasi mengenai COVID-19 ?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Sangat setuju"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Setuju"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Tidak setuju"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Sangat tidak setuju"
+                    }
+                ]
+            },
+            {
+                "questionId" : "20",
+                "label" : "Saya tahu lembaga pemerintah yang dapat membantu saya untuk mencari kebenaran informasi mengenai COVID-19?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Sangat setuju"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Setuju"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Tidak setuju"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Sangat tidak setuju"
+                    }
+                ]
+            },
+            {
+                "questionId" : "21",
+                "label" : "Saya tahu bagaimana menghadapi/ menangani atau memperlakukan individu penyebar hoaks ?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Sangat setuju"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Setuju"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Tidak setuju"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Sangat tidak setuju"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "blockId" : "8",
+        "block" : "PENGALAMAN DAN PERSEPSI RESIKO MENGENAI COVID-19",
+        "question" : [
+            {
+                "questionId" : "1",
+                "label" : "Apakah Anda, keluarga, rekan kerja, atau tetangga pernah terinfeksi COVID-19?",
+                "type" : "checkbox",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Ya, saya pribadi"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Ya, anggota keluarga saya"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Ya, tetangga saya"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Ya, teman saya"
+                    },
+                    {
+                        "answerId" : "5",
+                        "label" : "Ya, rekan kerja"
+                    },
+                    {
+                        "answerId" : "6",
+                        "label" : "Tidak"
+                    }
+                ]
+            },
+            {
+                "questionId" : "2",
+                "label" : "COVID-19 merupakan masalah komplek/multi dimensi/ berdampak pada politik, ekonomi, dan sosial ?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Sangat setuju"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Setuju"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Tidak setuju"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Sangat tidak setuju"
+                    }
+                ]
+            },
+            {
+                "questionId" : "3",
+                "label" : "COVID-19 dapat menyebabkan masalah kesehatan serius ?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Sangat setuju"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Setuju"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Tidak setuju"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Sangat tidak setuju"
+                    }
+                ]
+            },
+            {
+                "questionId" : "4",
+                "label" : "COVID-19 merupakan masalah kesehatan biasa/umum (seperti flu biasa) ?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Sangat setuju"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Setuju"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Tidak setuju"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Sangat tidak setuju"
+                    }
+                ]
+            },
+            {
+                "questionId" : "5",
+                "label" : "Ada hubungan antara COVID-19 dengan risiko ekonomi ?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Sangat setuju"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Setuju"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Tidak setuju"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Sangat tidak setuju"
+                    }
+                ]
+            },
+            {
+                "questionId" : "6",
+                "label" : "Seberapa besar kemungkinan Anda tertular COVID-19?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Sangat Mungkin"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Mungkin"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Tidak Mungkin"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Sangat tidak Mungkin"
+                    },
+                    {
+                        "answerId" : "5",
+                        "label" : "Tidak Tahu"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "blockId" : "9",
+        "block" : "SIKAP TERHADAP IMUNISASI RUTIN",
+        "question" : [
+            {
+                "questionId" : "1",
+                "label" : "Saya percaya keamanan imunisasi ?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Sangat setuju"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Setuju"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Tidak setuju"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Sangat tidak setuju"
+                    }
+                ]
+            },
+            {
+                "questionId" : "2",
+                "label" : "Saya percaya imunisasi melindungi anak saya dari penyakit yang dapat dicegah melalui vaksin ?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Sangat setuju"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Setuju"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Tidak setuju"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Sangat tidak setuju"
+                    }
+                ]
+            },
+            {
+                "questionId" : "3",
+                "label" : "Manfaat imunisasi lebih banyak daripada kerugiannya ?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Sangat setuju"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Setuju"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Tidak setuju"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Sangat tidak setuju"
+                    }
+                ]
+            },
+            {
+                "questionId" : "4",
+                "label" : "Di mana Anda mendapatkan imunisasi rutin untuk anak ?",
+                "type" : "checkbox",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Posyandu"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Puskesmas"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Dokter umum"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Bidan"
+                    },
+                    {
+                        "answerId" : "5",
+                        "label" : "Bidan"
+                    },
+                    {
+                        "answerId" : "6",
+                        "label" : "Perawat"
+                    },
+                    {
+                        "answerId" : "7",
+                        "label" : "Dokter spesialis"
+                    },
+                    {
+                        "answerId" : "8",
+                        "label" : "Rumah sakit"
+                    },
+                    {
+                        "answerId" : "9",
+                        "label" : "Tidak memiliki akses imunisasi"
+                    },
+                    {
+                        "answerId" : "10",
+                        "label" : "Belum memiliki anak "
+                    },
+                    {
+                        "answerId" : "11",
+                        "label" : "Punya anak namun, tidak ingin diimunisasi "
+                    },
+                    {
+                        "answerId" : "12",
+                        "label" : "Lainnya"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "blockId" : "10",
+        "block" : "SIKAP TERHADAP VAKSIN COVID-19",
+        "question" : [
+            {
+                "questionId" : "1",
+                "label" : "Saya percaya keamanan vaksin COVID-19 ?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Sangat setuju"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Setuju"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Tidak setuju"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Sangat tidak setuju"
+                    }
+                ]
+            },
+            {
+                "questionId" : "2",
+                "label" : "Saya percaya vaksin COVID-19 melindungi dari penyakit yang dapat dicegah melalui vaksin ?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Sangat setuju"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Setuju"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Tidak setuju"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Sangat tidak setuju"
+                    }
+                ]
+            },
+            {
+                "questionId" : "3",
+                "label" : "Manfaat vaksin COVID-19 lebih banyak daripada kerugiannya ?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Sangat setuju"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Setuju"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Tidak setuju"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Sangat tidak setuju"
+                    }
+                ]
+            },
+            {
+                "questionId" : "4",
+                "label" : "Walaupun kita sudah mendapatkan vaksin Covid 19, kita tetap perlu menerapkan protokol kesehatan ?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Sangat setuju"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Setuju"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Tidak setuju"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Sangat tidak setuju"
+                    }
+                ]
+            },
+            {
+                "questionId" : "5",
+                "label" : "Mendapat vaksin covid 19 membuat kemungkinan terpapar semakin rendah/kecil ?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Sangat setuju"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Setuju"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Tidak setuju"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Sangat tidak setuju"
+                    }
+                ]
+            },
+            {
+                "questionId" : "6",
+                "label" : "Mendapatkan vaksin covid 19 membuat dampak dari infeksi virus covid 19 semakin ringan ?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Sangat setuju"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Setuju"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Tidak setuju"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Sangat tidak setuju"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "blockId" : "11",
+        "block" : "PENERIMAAN/PERMINTAAN TERHADAP VAKSIN COVID-19",
+        "question" : [
+            {
+                "questionId" : "1",
+                "label" : "Apakah anda sudah mendapatkan vaksin COVID 19 ?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Sudah"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Belum"
+                    }
+                ]
+            },
+            {
+                "questionId" : "2",
+                "label" : "Saya bersedia  mendapatkan vaksin COVID-19 ?",
+                "type" : "smartselect",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Sangat setuju"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Setuju"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Tidak setuju"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Sangat tidak setuju"
+                    }
+                ]
+            },
+            {
+                "questionId" : "3",
+                "label" : "Di mana Anda divaksin/ingin mendapatkan vaksin COVID—19? ?",
+                "type" : "checkbox",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Puskesmas"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Rumah sakit"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Sentra Vaksin (Mall, Kantor pemerintah, Pasar, dll)"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "In house (kantor, Lembaga, institusi, dll)"
+                    },
+                    {
+                        "answerId" : "5",
+                        "label" : "Desa setempat (bale dusun, kantor desa)"
+                    },
+                    {
+                        "answerId" : "6",
+                        "label" : "Lainnya..."
+                    }
+                ]
+            },
+            {
+                "questionId" : "4",
+                "label" : "Apa alasan Anda jika Anda tidak bersedia/ragu menerima vaksin COVID-19 (pilih kode 1 jika Ya, kode 2 jika Tidak untuk setiap barisnya. Jawaban bisa lebih dari satu) ?",
+                "type" : "checkbox",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Kurangnya kepercayaan pada vaksin "
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Kurangnya kepercayaan pada pemerintah yang menyelenggarakan vaksinasi "
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Kurangnya manfaat vaksin"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Takut efek samping dari vaksin "
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Kekhawatiran mengenai biaya "
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Vaksin bertentangan dengan agama "
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Mengganggu kesuburan "
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Kurangnya kepercayaan pada proses pembuatan vaksin"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Saya tidak rentan terhadap Covid-19 "
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Orang lain tidak divaksinasi "
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Saya tidak percaya keberadaan COVID-19"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Saya pernah terinfeksi COVID-19 dan sekarang saya kebal"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Saya tidak akan mengikuti aturan pemerintah/peraturan yang mewajibkan vaksinasi "
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Lainnya(jelaskan)"
                     }
                 ]
             }
