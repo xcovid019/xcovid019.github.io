@@ -85,7 +85,7 @@
             {
                 "questionId" : "1",
                 "label" : "Berapa usia Anda saat ini ?",
-                "type" : "date",
+                "type" : "number",
                 "condition" : {
                     "status" : false,
                     "maxLength" : null,
@@ -790,7 +790,7 @@
             {
                 "questionId" : "4",
                 "label" : "Mengapa Anda membagikan informasi mengenai COVID-19 di media sosial atau aplikasi percakapan ?",
-                "type" : "smarselect",
+                "type" : "smartselect",
                 "condition" : {
                     "status" : false,
                     "maxLength" : null,
@@ -1062,6 +1062,68 @@
                     {
                         "answerId" : "4",
                         "label" : "Sangat tidak setuju"
+                    }
+                ]
+            },
+            {
+                "questionId" : "9",
+                "label" : "Bagaimana Anda meyakini bahwa informasi mengenai COVID-19 itu benar tahu bahwa suatu informasi mengenai COVID-19 adalah benar ?",
+                "type" : "checkbox",
+                "condition" : {
+                    "status" : false,
+                    "maxLength" : null,
+                    "minLength" : 1,
+                    "maxValue" : null,
+                    "minValue" : 1
+                },
+                "answerList" : [
+                    {
+                        "answerId" : "1",
+                        "label" : "Pengalaman langsung"
+                    },
+                    {
+                        "answerId" : "2",
+                        "label" : "Berasal dari keluarga"
+                    },
+                    {
+                        "answerId" : "3",
+                        "label" : "Berasal dari pemimpin agama"
+                    },
+                    {
+                        "answerId" : "4",
+                        "label" : "Berasal dari pemerintah"
+                    },
+                    {
+                        "answerId" : "5",
+                        "label" : "Berasal dari WHO/UNICEF/Lembaga internasional lainnya"
+                    },
+                    {
+                        "answerId" : "6",
+                        "label" : "Berasal dari Jurnal/sumber ilmiah"
+                    },
+                    {
+                        "answerId" : "7",
+                        "label" : "Ada gambar yang disertakan"
+                    },
+                    {
+                        "answerId" : "8",
+                        "label" : "Ada video yang disertakan"
+                    },
+                    {
+                        "answerId" : "9",
+                        "label" : "Ada tautan Link/ URL yang disertakan"
+                    },
+                    {
+                        "answerId" : "10",
+                        "label" : "Terdengar masuk akal"
+                    },
+                    {
+                        "answerId" : "11",
+                        "label" : "Saya telah melihat informasi tersebut"
+                    },
+                    {
+                        "answerId" : "12",
+                        "label" : "Tidak ada pilihan"
                     }
                 ]
             },

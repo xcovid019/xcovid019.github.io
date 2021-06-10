@@ -42,7 +42,7 @@ const HomePage = ({ f7router }) => (
       textAlign:'justify',
       fontSize: '18px'
     }}>
-      <p>Yayasan Jenewa Institute, Link To Evidance, Leuser Andalas Community Development sedang melaksanakan survey Penyimpangan Informasi Vaksi Covid-19 di 6 Provinsi Indonesia tahun 2021.</p>
+      <p>Yayasan Jenewa Institute, Link To Evidance, Lembaga Perkumpulan Sinergi Sehat Indonesia, Leuser Andalas Community Development sedang melaksanakan survey Penyimpangan Informasi Vaksi Covid-19 di 6 Provinsi Indonesia tahun 2021.</p>
       <p>Partisipasi aktif dalam mengisi daftar pertanyaan ini sangat kami harapkan, demikian juga ketulusan dan kejujuran dalam menjawab. Perlu dipahami, bahwa kami bukan menilai jawbaan anda benar atau salah, namun kami ingin mempelajari kondisi dan realitas yang terjadi di masyarakat terkait penyimpangan informasi vaksin Covid-19 . Kejujuran Anda dalam mengisi kuesioner akan membantu memberikan data/informasi yang benar mengenai realitas yang terjadi di masyarakat.</p>
       <p>Kerahasiaan jawaban akan kami jamin.  Anda tidak perlu mencantumkan identitas apapun
       pada kuesioner.  Isi dari jawaban Anda TIDAK ADA sangkut-pautnya penilaian baik dan baruk diri anda.

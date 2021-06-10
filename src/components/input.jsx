@@ -2,7 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { List, ListItem, ListInput, Button, BlockFooter, useStore, Row, Col, Icon, f7  } from 'framework7-react';
 
 const InputForm = (props) => {
+    const answer = useStore('answer');
     let question = props.question;
+
     if (question.type === 'smartselect') {
         return <ListItem 
                     smartSelect 
@@ -56,7 +58,7 @@ const InputForm = (props) => {
                 </select>
             </ListItem>
         )
-    } else if(["text", "number"].includes(question.type)){
+    } else if(["text", "number", "year"].includes(question.type)){
         return <ListInput
                 outline
                 label={question.label}
